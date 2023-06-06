@@ -72,3 +72,51 @@ print(type(int(text3)))
 #float() convertie vers float
 #bool() convertie vers boolean
 
+#chaine de caractéres,string
+#cette notation permet d'utiliser des sauts de ligne
+text4= """<div>
+    <h1>titre de premier niveau</h1>
+    </div>
+    """
+#\n est equivalent à un saut de ligne
+#\t est equivalent à une tabulation
+text5= "<div>\n\<h1>titre de premier niveau</h1>\n</div>\n"
+
+print(text5)
+
+
+#la backslash seul est le caractére d'echappement
+#\"equivalent à une guillemet"
+#\\ est equivalent à un back slash \
+
+
+text6="Foo \"Bar\" Baz"
+
+text7="c:\\Programm Files\\foo"
+
+#permutez les deux variables a et b en utilisant 
+#l'operation d'affectation et le nom des variables
+a=123
+b=42
+c=165
+
+#permutation des valeurs à l'aide d'une variable temporaire
+c=b
+b=a
+a=c
+
+print(a)
+print(b)
+
+#permutation des valeurs à l'aie d'operations arithmétiques
+a= a+b
+b= a-b
+a= a-b
+
+print(a)
+print(b)
+
+
+
+
+

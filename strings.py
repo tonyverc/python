@@ -54,6 +54,26 @@ print(list1)
 text8 = "+".join(list1)
 print(text8)
 
+#documenter une fonction
+"""cette fonction renvoie:
+#"oui" si la valeur passer en paramétre est True 
+#"non" si la valeur passer en paramétre est False
+#"" dans les autres cas
+
+valeur bool valeur qui sera transformée en "oui" ou "non"
+return str
+# ou """ devant la fonction def"""
+def ouiNon(value):
+    if value == True:
+        return "oui"
+    elif value == False:
+        return "non"
+    return ""
+
+help(ouiNon) 
+print(ouiNon.__doc__)
+
+
 
 
 

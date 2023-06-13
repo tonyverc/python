@@ -12,4 +12,5 @@ print(number)
 # réponse 4.3
 if number / 3:
     print("le nombre est divisible par 3")
-if
+else 
+    print("le nombre n'est pas divisible par 3")

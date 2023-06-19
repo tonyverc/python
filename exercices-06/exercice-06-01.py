@@ -3,3 +3,5 @@
 
 # réponse 6.1
 
+my_list = (62 , 3.14 ,'rcl',True)
+print(my_list)

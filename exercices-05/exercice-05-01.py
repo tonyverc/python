@@ -6,7 +6,12 @@
 
 def multiplication(a: float, b: float) -> float: 
     return a * b
-  print(multiplication) 
+ 
+informations = help(multiplication)  
+print(informations)  
+"""ceci est une fonction de multiplication
+"""
+ 
  
 
 

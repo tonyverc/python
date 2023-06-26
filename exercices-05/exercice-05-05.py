@@ -8,3 +8,6 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 # réponse 5.5
 
+number = my_text.count('\n')
+
+print(number)

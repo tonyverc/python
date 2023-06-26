@@ -9,5 +9,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 # réponse 5.4
 
-new_text = my_text.split('')
+new_text = my_text.split(' ')
+print(new_text)
+
 

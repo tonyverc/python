@@ -5,14 +5,14 @@
 # réponse 5.1
 
 def multiplication(a: float, b: float) -> float: 
+    
+    '''
+    fonction de multiplication avec des nombres à virgule
+    return renvoie le resultat
+    '''
     return a * b
  
-informations = help(multiplication)  
-print(informations)  
-"""ceci est une fonction de multiplication
-"""
- 
- 
+help(multiplication)
 
 
 

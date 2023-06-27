@@ -81,12 +81,12 @@ resultat = None
 for operation in operations:
     resultat = operation(a, b)
 
-#fonction de degré supérieur
+#fonction d'ordre supérieur
 #c'est une fonction qui accepte une fonction paramétre ou qui renvoie une fonction
 def operateur_binaire(a, b, fonction):
     return fonction(a, b)
 
-#appel de la fonction de degré superieur
+#appel de la fonction d'ordre superieur
 resultat = operateur_binaire(2, 5, mult)
 
 my_list = ['foo', 'ipsum']

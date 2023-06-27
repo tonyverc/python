@@ -8,11 +8,11 @@
 # Affichez ces variables
 
 # réponse 2.1
-answer=42
-golden_ratio=1.61
-fullname="Salut VERCRUYSSE Tony"
-love_python="true"
-license_agreement=None
+answer= 42
+golden_ratio= 1.61
+fullname= "Salut VERCRUYSSE Tony"
+love_python= "true"
+license_agreement= None
 
 print(answer)
 print(golden_ratio)

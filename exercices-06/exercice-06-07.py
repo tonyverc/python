@@ -7,3 +7,8 @@ my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 
 # réponse 6.7
 
+index_bar = my_list.index('bar')
+index_lorem = my_list.index('lorem')
+my_list[index_bar], my_list[index_lorem] = my_list[index_lorem], my_list[index_bar]
+
+print(my_list)

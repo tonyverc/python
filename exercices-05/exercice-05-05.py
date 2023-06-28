@@ -8,6 +8,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 # réponse 5.5
 
-number = my_text.count('\n')
+num_lines = my_text.count('\n') + 1
+print(num_lines)
 
-print(number)
+

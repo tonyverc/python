@@ -9,7 +9,9 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 # réponse 5.4
 
-new_text = my_text.split(' ')
-print(new_text)
+split_text = my_text.split()
+print(split_text)
 
+word_at_index_5 = split_text[5]
+print(word_at_index_5)
 

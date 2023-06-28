@@ -7,3 +7,5 @@ my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 
 # réponse 6.4
 
+new_list = my_list.remove('baz')
+print(my_list)

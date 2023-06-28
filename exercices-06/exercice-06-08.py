@@ -8,10 +8,8 @@ my_list = [2.71, 42]
 
 # réponse 6.8
 
-# Initialisation de la variable de somme
 total = 0
 
-# Boucle for pour itérer à travers les éléments de la liste
 for number in my_list:
     total += number
 

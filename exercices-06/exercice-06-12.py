@@ -7,3 +7,8 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.12
 
+somme = 0
+for number in my_list :
+    if number <= 10 :
+        somme += 1
+        print(somme)
